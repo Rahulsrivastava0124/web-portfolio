@@ -97,7 +97,7 @@ a:hover {
 h1 {
     color: transparent;
     -webkit-text-stroke: 1px black;
-    background-image: url(/img/back.png);
+    background-image: url(../img/back.png);
     -webkit-background-clip: text;
     opacity: 60%;
     background-position: 0 0;
@@ -129,7 +129,8 @@ a:hover .social-icon {
 
 .user-image {
     width: 150px;
-    background-image: url(/img/acount.jpg);
+    background-image: url(..
+/img/acount.jpg);
     background-size: contain;
     margin-bottom: 20px;
 }
