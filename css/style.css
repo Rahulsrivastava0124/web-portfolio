@@ -270,7 +270,7 @@ a:hover .social-icon {
 
 /* contact section  */
 .contact-img {
-    background-image: url(/img/contact.jpg);
+    background-image: url(../img/contact.jpg);
     min-height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,7 +298,7 @@ a:hover .social-icon {
 }
 
 .form-image {
-    background-image: url(/img/form-img.jpg);
+    background-image: url(../img/form-img.jpg);
     min-height:65vh;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
