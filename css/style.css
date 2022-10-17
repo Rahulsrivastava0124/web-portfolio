@@ -5,7 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     color: #666;
-    overflow-x: hidden;
+    
 }
 
 /* complete section  */
@@ -35,7 +35,7 @@ a:hover {
 }
 
 .container-2 {
-    max-width: 900px;
+    max-width: 880px;
     font-family: sans-serif;
     font-weight: bolder;
     margin: auto;
@@ -370,11 +370,14 @@ a:hover .social-icon {
     }
 }
 
-@media screen and (max-width:899px) {
+@media screen and (max-width:900px) {
 
-    .container,
-    .container-2 {
+    .container {
         max-width: 100%;
+        margin: 0px auto;
+    }
+    .container-2 {
+        max-width: 80%;
         margin: 0px auto;
     }
 
