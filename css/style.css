@@ -83,9 +83,9 @@ a:hover {
     transition: 0.2s;
 }
 
-.navbar-brand:hover {
+/* .navbar-brand:hover {
     color: #444;
-}
+} */
 
 .smaller {
     font-weight: 400;
@@ -97,8 +97,9 @@ a:hover {
 h1 {
     color: transparent;
     -webkit-text-stroke: 1px black;
-    background-image: url(../img/back.png);
+    background-image: url(/img/back.png);
     -webkit-background-clip: text;
+    background-clip:text;
     opacity: 60%;
     background-position: 0 0;
     animation: back 20s linear infinite;
@@ -129,7 +130,7 @@ a:hover .social-icon {
 
 .user-image {
     width: 150px;
-    background-image: url(..
+    background-image: url(
 /img/acount.jpg);
     background-size: contain;
     margin-bottom: 20px;
@@ -171,6 +172,10 @@ a:hover .social-icon {
     display: flex;
 }
 
+.Project_html_data_image{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
 /* un-active buttons   */
 .un-btn {
     margin-left: 10px;
